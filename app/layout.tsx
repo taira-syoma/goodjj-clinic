@@ -1,9 +1,9 @@
 // app/layout.tsx
-import type { Metadata } from "next"; 
-import { Inter } from "next/font/google"; // これが必要！
-import "./globals.css"; // これも必要！
+import type { Metadata } from "next";
+import { Inter } from "next/font/google"; // これが必要です！
+import "./globals.css"; // これも必要です！
 
-const inter = Inter({ subsets: ["latin"] }); // これも消えていませんか？
+const inter = Inter({ subsets: ["latin"] }); // これも忘れないでください！
 
 
 export const metadata: Metadata = {
