@@ -1,5 +1,11 @@
 // app/layout.tsx
-import type { Metadata } from "next";
+import type { Metadata } from "next"; 
+import { Inter } from "next/font/google"; // これが必要！
+import "./globals.css"; // これも必要！
+
+const inter = Inter({ subsets: ["latin"] }); // これも消えていませんか？
+
+
 export const metadata: Metadata = {
   title: "goodjj 内科クリニック | 地域に根ざした、信頼の医療",
   description: "山形から発信する goodjj クリニックは、国立大学出身の医師による丁寧な診察と最新設備を備えた内科クリニックです。",
