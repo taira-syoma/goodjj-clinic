@@ -1,10 +1,8 @@
-// app/layout.tsx
 import type { Metadata } from "next";
-import { Inter } from "next/font/google"; // これが必要です！
-import "./globals.css"; // これも必要です！
+import { Inter } from "next/font/google";
+import "./globals.css";
 
-const inter = Inter({ subsets: ["latin"] }); // これも忘れないでください！
-
+const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "goodjj 内科クリニック | 地域に根ざした、信頼の医療",
@@ -13,11 +11,11 @@ export const metadata: Metadata = {
   openGraph: {
     title: "goodjj 内科クリニック",
     description: "あなたに一番近い内科クリニック。最新設備で健やかな毎日をサポートします。",
-    url: "https://goodjj-clinic.vercel.app", // ここに自分のURLを貼る
+    url: "https://goodjj-clinic.vercel.app",
     siteName: "goodjj 内科クリニック",
     images: [
       {
-        url: "/og-image.png", // 共有した時に表示される画像
+        url: "/og-image.png",
         width: 1200,
         height: 630,
       },
@@ -26,3 +24,16 @@ export const metadata: Metadata = {
     type: "website",
   },
 };
+
+// ↓↓↓ この下の部分が消えていたため、エラーになっていました！ ↓↓↓
+export default function RootLayout({
+  children,
+}: {
+  children: React.ReactNode;
+}) {
+  return (
+    <html lang="ja">
+      <body className={inter.className}>{children}</body>
+    </html>
+  );
+}
