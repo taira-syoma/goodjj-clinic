@@ -23,6 +23,10 @@ export const metadata: Metadata = {
     locale: "ja_JP",
     type: "website",
   },
+  // app/layout.tsx
+verification: {
+  google: "hwLMDHH5zTbI0_zjvwjRe4T3EyzVP7kmhmY_ytGtFI", // ← タグではなく、" " で囲った英数字だけにします
+},
 };
 
 // ↓↓↓ この下の部分が消えていたため、エラーになっていました！ ↓↓↓
