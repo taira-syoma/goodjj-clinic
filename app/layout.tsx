@@ -24,9 +24,9 @@ export const metadata: Metadata = {
     type: "website",
   },
   // app/layout.tsx
-verification: {
-  google: "hwLMDHH5zTbI0_zjvwjRe4T3EyzVP7kmhmY_ytGtFI", // ← タグではなく、" " で囲った英数字だけにします
-},
+  verification: {
+    google: "hwLMDHH5zTbI0_zjvwjRe4T3EyzVP7kmhmY_ytGtFI",
+  },
 };
 
 // ↓↓↓ この下の部分が消えていたため、エラーになっていました！ ↓↓↓
