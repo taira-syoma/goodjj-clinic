@@ -191,6 +191,7 @@ export default function Home() {
 </ScrollReveal>
 {/* アクセスセクション */}
 {/* アクセスセクション（修正版） */}
+
 <ScrollReveal>
 <section id="access" className="py-24 bg-white">
   <div className="container mx-auto px-4">
@@ -212,12 +213,7 @@ export default function Home() {
         ></iframe>
       </div>
 
-      <section className="py-20 bg-white">
-  <div className="container mx-auto px-4">
-    <h2 className="text-3xl font-bold text-center mb-10">お問い合わせ</h2>
-    <ContactForm />
-  </div>
-</section>
+    
       
       {/* 住所・連絡先 */}
       <div className="flex flex-col justify-center">
@@ -247,6 +243,14 @@ export default function Home() {
   </div>
 </section>
 </ScrollReveal>
+
+<section className="py-20 bg-white">
+  <div className="container mx-auto px-4">
+    <h2 className="text-3xl font-bold text-center mb-10">お問い合わせ</h2>
+    <ContactForm />
+  </div>
+</section>
+
 <FaqSection />
 <Footer />
     </main>
