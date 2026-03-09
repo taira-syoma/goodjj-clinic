@@ -12,7 +12,7 @@ export async function sendEmail(formData: FormData) {
   try {
     await resend.emails.send({
       from: "Clinic Site <onboarding@resend.dev>", // 最初はこのまま
-      to: "あなたのメールアドレス", // 自分が受け取りたいアドレス
+      to: "m241549@st.yamagata-u.ac.jp", // 自分が受け取りたいアドレス
       subject: `【お問い合わせ】${name}様より`,
       text: `名前: ${name}\nメール: ${email}\n内容: ${message}`,
     });
