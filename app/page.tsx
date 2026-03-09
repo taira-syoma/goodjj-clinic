@@ -5,6 +5,7 @@ import { Footer } from "@/components/footer";
 import { FaqSection } from "@/components/faq-section";
 import Image from "next/image";
 import { ScrollReveal } from "@/components/scroll-reveal";
+import ContactForm from "@/components/ContactForm";
 
 export default function Home() {
   return (
@@ -210,6 +211,13 @@ export default function Home() {
           loading="lazy"
         ></iframe>
       </div>
+
+      <section className="py-20 bg-white">
+  <div className="container mx-auto px-4">
+    <h2 className="text-3xl font-bold text-center mb-10">お問い合わせ</h2>
+    <ContactForm />
+  </div>
+</section>
       
       {/* 住所・連絡先 */}
       <div className="flex flex-col justify-center">
