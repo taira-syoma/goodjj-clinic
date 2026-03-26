@@ -6,11 +6,11 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "goodjj 内科クリニック | 地域に根ざした、信頼の医療",
-  description: "山形から発信する goodjj クリニックは、国立大学出身の医師による丁寧な診察と最新設備を備えた内科クリニックです。",
+  description: " goodjj クリニックは、国立大学出身の医師による丁寧な診察と最新設備を備えた内科クリニックです。",
   icons: {
     icon: "/icon.png",
   },
-  keywords: ["内科", "クリニック", "山形", "goodjj"],
+  keywords: ["内科", "クリニック", "goodjj"],
   openGraph: {
     title: "goodjj 内科クリニック",
     description: "あなたに一番近い内科クリニック。最新設備で健やかな毎日をサポートします。",

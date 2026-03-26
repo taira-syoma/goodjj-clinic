@@ -39,7 +39,7 @@ export default function ContactForm() {
           <input 
             name="name" 
             type="text" 
-            placeholder="山形 太郎"
+            placeholder="佐藤 太郎"
             className={`w-full border rounded-lg p-3 outline-none transition ${errors.name ? 'border-red-500 bg-red-50' : 'border-gray-300 focus:border-blue-500'}`} 
           />
           {errors.name && <p className="text-red-500 text-xs mt-1 font-medium">⚠️ {errors.name[0]}</p>}
@@ -51,7 +51,7 @@ export default function ContactForm() {
           <input 
             name="email" 
             type="text" 
-            placeholder="example@st.yamagata-u.ac.jp"
+            placeholder="example@gmail.com"
             className={`w-full border rounded-lg p-3 outline-none transition ${errors.email ? 'border-red-500 bg-red-50' : 'border-gray-300 focus:border-blue-500'}`} 
           />
           {errors.email && <p className="text-red-500 text-xs mt-1 font-medium">⚠️ {errors.email[0]}</p>}
